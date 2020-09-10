@@ -48,9 +48,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ### <a name="Contributing"></a>Contributing
-I can be reached at jamesspericles@gmail.com with any questions related to iterating on this project.
+Anyone is welcome to iterate on this project. I can be reached at the email below with any questions related to working on this project.
 
 ### <a name="Questions"></a>Questions
-jamesspericles@gmail.com
+I can be reached at jamesspericles@gmail.com with any questions related to iterating on this project.
 ### <a name="Github"></a>Github
 This project can be found [here](https://github.com/jamespericles)
