@@ -1,5 +1,8 @@
 const Workout = require("../models/workout.js");
 const mongoose = require("mongoose");
+const express = require("express");
+
+const app = express();
 
 app.post("/api/workouts", ({ body }, res) => {
   db.Workout.create({})
@@ -41,3 +44,5 @@ app
   .catch((err) => {
     res.json(err);
   });
+
+module.exports = apiRoutes;
