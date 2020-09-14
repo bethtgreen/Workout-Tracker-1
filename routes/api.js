@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post("/api/workouts", ({ body }, res) => {
   Workout.create({})
-    .then((dbWorkout) => {})
+    .then((Workout) => {})
     .catch(({ message }) => {
       console.log(message);
     });
@@ -13,7 +13,6 @@ router.post("/api/workouts", ({ body }, res) => {
 
 router.put("/api/workouts/:id", ({ params, body }, res) => {
   console.log("PARAMS", body, params);
-  let _id = mongoose.Types.ObjectId(params.id);
 
   Workout.findOneAndUpdate(
     { _id: params.id },
