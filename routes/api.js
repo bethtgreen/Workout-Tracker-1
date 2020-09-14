@@ -2,9 +2,10 @@ const Workout = require("../models/workout.js");
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
+// const db = require("../server.js");
 
 router.post("/api/workouts", ({ body }, res) => {
-  db.Workout.create({})
+  Workout.create({})
     .then((dbWorkout) => {})
     .catch(({ message }) => {
       console.log(message);
@@ -14,7 +15,7 @@ router.post("/api/workouts", ({ body }, res) => {
 router.put("/api/workouts/:id", ({ params, body }, res) => {
   let _id = mongoose.Types.ObjectId(params.id);
 
-  db.Workout.findOneAndUpdate({}, { $push: { exercises: _id } }, { new: true })
+  Workout.findOneAndUpdate({}, { $push: { exercises: _id } }, { new: true })
     .then((dbWorkout) => {
       res.json(dbWorkout);
     })
@@ -24,7 +25,7 @@ router.put("/api/workouts/:id", ({ params, body }, res) => {
 });
 
 router.get("/api/workouts/range", (req, res) => {
-  db.Workout.find({})
+  Workout.find({})
     .limit(7)
     .then((dbWorkout) => {
       res.json(dbWorkout);
@@ -35,7 +36,7 @@ router.get("/api/workouts/range", (req, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
-  db.Workout.find({})
+  Workout.find({})
     .then((dbWorkout) => {
       res.json(dbWorkout);
     })
