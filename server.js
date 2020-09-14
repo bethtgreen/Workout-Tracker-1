@@ -20,6 +20,7 @@ let db = mongoose.connect(
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false,
+    useCreateIndex: true,
   }
 );
 
