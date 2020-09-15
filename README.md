@@ -20,7 +20,9 @@ Workout-Tracker provides the user with plenty of functionality to help them reac
 
 Currently this project is deployed [here](https://aqueous-gorge-96089.herokuapp.com/), but can also be ran locally if you so desire.
 ### <a name="Screenshots"></a>Screenshots
-WIP
+![Past_stats](https://github.com/jamespericles/Workout-Tracker/blob/master/screenshots/Past_stats.png)
+![Entering_lift](https://github.com/jamespericles/Workout-Tracker/blob/master/screenshots/Entering_lift.png)
+![Stats_page](https://github.com/jamespericles/Workout-Tracker/blob/master/screenshots/Stats_page.png)
 ### <a name="Installation"></a>Installation
 Users can view the deployed project [here](heroku link). If you intend to iterate on the project, besides downloading the repo to your machine, be sure to run `npm i` in the root directory and to also have MongoDB installed and ready.
 ### <a name="Usage"></a>Usage
