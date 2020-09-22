@@ -55,4 +55,4 @@ Anyone is welcome to iterate on this project. I can be reached at the email belo
 ### <a name="Questions"></a>Questions
 I can be reached at jamesspericles@gmail.com with any questions related to iterating on this project.
 ### <a name="Github"></a>Github
-This project can be found [here](https://github.com/jamespericles)
+This project can be found [here.](https://github.com/jamespericles)
